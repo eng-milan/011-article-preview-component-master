@@ -1,0 +1,145 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    padding: 50px 5% 0;
+}
+
+.main-content-container {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.top-image-container {
+    background-image: url(../images/drawers.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    height: 260px;
+}
+
+.article-container {
+    padding: 40px 10% 0;
+}
+
+.article-heading {
+    color: hsl(217, 19%, 35%);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.article-paragraph {
+    color: hsl(214, 17%, 51%);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.author-container {
+    margin-top: 40px;
+    color: hsl(217, 19%, 35%);
+}
+
+.author-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 10%;
+    border-radius: 0 0 10px 10px;
+}
+
+.author-information>div {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.author-name-date {
+    margin-left: 15px;
+}
+
+.author-date {
+    color: hsl(212, 23%, 69%);
+}
+
+#share-icon-inactive {
+    font-size: 1rem;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#share-icon-inactive:hover {
+    cursor: pointer;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+}
+
+#share-links {
+    display: none;
+}
+
+#share-links.share-links-visible {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: hsl(217, 19%, 35%);
+    padding: 18px 10%;
+    color: hsl(210, 46%, 95%);
+    border-radius: 0 0 10px 10px;
+}
+
+#share-links p {
+    color: hsl(212, 23%, 69%);
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.social-links {
+    margin-right: 60px;
+}
+
+.social-links .fab {
+    margin-right: 10px;
+}
+
+.social-links .fab:hover {
+    cursor: pointer;
+    color: hsl(212, 23%, 69%);
+}
+
+#share-icon-active {
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsla(212, 23%, 69%, 0.5);
+}
+
+#share-icon-active:hover {
+    cursor: pointer;
+    color: hsl(217, 19%, 35%);
+    background-color: hsl(210, 46%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}

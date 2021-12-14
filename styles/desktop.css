@@ -1,0 +1,134 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    padding: 80px 11% 0;
+}
+
+.main-content-container {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.top-image-container {
+    background-image: url(../images/drawers.jpg);
+    background-position: left;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    height: 485px;
+    width: 100%;
+}
+
+article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7%;
+}
+
+.article-heading {
+    color: hsl(217, 19%, 35%);
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.article-paragraph {
+    color: hsl(214, 17%, 51%);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.author-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.author-information>div {
+    display: flex;
+    align-items: center;
+}
+
+.author-name-date {
+    margin-left: 15px;
+}
+
+.author-image {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.author-date {
+    color: hsl(212, 23%, 69%);
+}
+
+#share-icon-inactive {
+    font-size: 1rem;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#share-icon-inactive:hover {
+    cursor: pointer;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+}
+
+#share-links {
+    display: none;
+}
+
+#share-links.share-links-visible {
+    position: absolute;
+    bottom: 140px;
+    right: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: hsl(217, 19%, 35%);
+    padding: 15px 5%;
+    color: hsl(210, 46%, 95%);
+    border-radius: 10px;
+}
+
+#share-links p {
+    color: hsl(212, 23%, 69%);
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.social-links .fab {
+    margin-left: 10px;
+}
+
+.social-links .fab:hover {
+    cursor: pointer;
+    color: hsl(212, 23%, 69%);
+}
+
+#share-icon-active {
+    display: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
